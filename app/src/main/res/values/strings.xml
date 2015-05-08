@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Be Prepared</string>
+    <string name="action_settings">Settings</string>
+    <string name="Help">ABOUT
+        \nWelcome! Be Prepared is a reminder app. It allows you to create a list of places you
+        frequently visit called destinations. For each destination you can create a list of items.
+        This is a list of items that you do not want to forget to bring with you when you head out
+        to that place. There are four different modes to help you accomplish this. There is a manual
+        mode which allows you to bring up a checklist of items for a destination. The other three
+        modes work automatically after you set them up and start them. They remind you to bring up
+        the checklist and make sure you have everything before heading out. The different modes
+        are explained in more detail below.
+
+        \n\nEDIT LISTS
+        \nClicking on the Edit Lists button takes you to the list of destinations. Click the Add
+        Destination button to enter a new destination. The only restriction on naming is it cannot
+        contain a new line character. You may enter as many destinations as you want. After creating
+        a destination it will appear in a list below the Add Destination button. Click on a
+        destination and you can delete it or edit the list of items for that destination. If you
+        choose to edit it then you will be brought to an edit items list which works the same as the
+        edit destinations list.
+
+        \n\nMANUAL MODE
+        \nThis is the simplest mode. This button will bring you to your list of destinations if you
+        have created it already. Clicking on a destination will bring you to a checklist for that
+        particular destination.
+
+        \n\nTIMER MODE
+        \nThis mode is the most useful if you know ahead of time when you will be heading out. Just
+        use the timer wheel to set the correct hour, minute, and AM/PM then hit the SET button. You
+        can then exit the app and it will notify you with your default notification tone and
+        vibration. A notification icon will be displayed in the status bar. Clicking on it will
+        bring you to the notification screen and ask if you are heading out. Selecting yes will
+        take you to the list of destinations where clicking on one will bring you to the checklist
+        of items for that destination. If you set a different time before the original timer goes
+        off it will update to the new time you entered and the old timer will not go off.
+
+        \n\nWIFI MODE
+        \nThis mode works by detecting wifi networks. You will set up a home network and once you set
+        it to start the app will notify you as soon as you leave the area of that network. To use
+        this mode first make sure to have wifi enabled. If wifi is enabled then you will see a list
+        of networks in range once you click on the wifi mode button. The list is scrollable if it
+        is longer than the screen. Select the network you would like to use and click on it. A
+        dialog box will open that lets you set that network as your home network. Once it is set
+        it will display at the top of the screen that it is set as home. Then you can hit the green
+        start button. You can then navigate away from the app. It will continue scanning until you
+        open wifi mode again and hit the stop button. As long as it is scanning the app will notify
+        you in the same way as the timer mode once you leave the area of that network. The scan will
+        stop after the notification and will have to be started again when you wish to use it.
+
+        \n\nGPS MODE
+        \nThis mode works with GPS and boundary detection. You will set up a bounded area around your
+        home and upon leaving this are the app will notify you in the same way the wifi mode does
+        when leaving the network area. To use this mode first make sure you have GPS enabled. When
+        you open this mode you will see a start button and four direction buttons. For each of the
+        directions, move the device to the edge of your home area in that direction. For example,
+        move to the northern most wall in your house then hit the north button. It will open a
+        dialog that lets you scan the location or delete a previously saved location. The scan will
+        scan for about three seconds and save the most accurate result the device receives. Each
+        time you scan the most accurate result will be stored so feel free to scan as many time as
+        you wish. Just make sure to not move the device while you scan. Three meters is the most
+        accurate result in my experience. After all four directions are set you can hit the green
+        start button to start a scan. It will continue scanning until you open GPS mode again and
+        hit the stop button. As long as it is scanning the app will notify you in the same way as
+        the timer mode once you leave the bounded area. The scan will stop after the notification
+        and will have to be started again when you wish to use it. Because of the inaccuracy of
+        measurements the notification will often go off after moving well beyond the boundary that
+        you set up. Wifi mode is usually the better option in terms of battery life and reliability
+        unless there are no networks in range.
+     </string>
+    <string name="wifi_list"> network 1\n network 2\n network 3</string>
+    <string name="north">North:</string>
+    <string name="east">East:</string>
+    <string name="south">South:</string>
+    <string name="west">West:</string>
+    <string name="track">track</string>
+    <string name="stop">stop</string>
+    <string name="text_color">#0000FF</string>
+    <string name="text_size">28sp</string>
+</resources>

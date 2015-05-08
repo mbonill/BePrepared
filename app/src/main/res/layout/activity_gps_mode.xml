@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg3">
+
+    <TextView
+        android:id="@+id/currentLat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eastButton"
+        android:layout_alignRight="@+id/eastButton"
+        android:layout_below="@+id/eastButton"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/currentLong"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/eastButton"
+        android:layout_alignRight="@+id/eastButton"
+        android:layout_below="@+id/currentLat"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/northButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/track"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/track"
+        android:background="@drawable/list_button"
+        android:text="North"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/eastButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/westButton"
+        android:background="@drawable/list_button"
+        android:text="East"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/southButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/list_button"
+        android:text="South"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/westButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/list_button"
+        android:text="West"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/track"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/southButton"
+        android:layout_alignStart="@+id/southButton"
+        android:layout_centerVertical="true"
+        android:text="@string/track" />
+
+
+</RelativeLayout>

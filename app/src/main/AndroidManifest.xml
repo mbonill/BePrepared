@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mycompany.beprepared" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MenuActivity"
+
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".GPSModeActivity"></activity>
+        <activity android:name=".ChecklistActivity"></activity>
+        <activity android:name=".EditDestinationsActivity"></activity>
+        <activity android:name=".NotificationScreenActivity"></activity>
+        <activity android:name=".TimerModeActivity"></activity>
+        <activity android:name=".WifiModeActivity"></activity>
+        <activity android:name=".DestinationListActivity"></activity>
+        <activity android:name=".HelpMenuActivity"></activity>
+        <activity android:name=".EditItemsActivity"></activity>
+        <receiver android:name=".Alarm"/>
+    </application>
+
+
+
+</manifest>

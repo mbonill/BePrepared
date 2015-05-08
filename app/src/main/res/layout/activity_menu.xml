@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/lists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/list"
+                android:text="Edit Lists"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/manual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/finger"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Manual Mode"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/alarm"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Timer Mode"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/gps"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/gps"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="GPS Mode"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/wifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/wifi"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Wifi Mode"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/help"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:width="270dp"
+                android:background="@drawable/custom_button"
+                android:drawableRight="@drawable/qmark"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="Help"
+                android:textColor="#0000FF"
+                android:textSize="28sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
